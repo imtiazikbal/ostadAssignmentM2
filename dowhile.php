@@ -6,11 +6,11 @@ function evenNumberPrint($start, $end, $step){
 
     $count = $start;
     do{
-        echo $count;
+        echo $count+1;
         echo"\n";
         $count = $count +$step;
     }while($count<=$end);
     
 }
-evenNumberPrint(2,20,2);
+evenNumberPrint(1,20,2);
 
